@@ -25,7 +25,7 @@ const otp_btn = document.getElementById('otp-btn');
 otp_btn.addEventListener('click', () => {
 if (otp_inp.value == otp_val) {
 alert("Email Verified...");
-window.location.assign("product-userdetail2.html")
+window.location.assign("https://github.com/Rupeshrauniyar/Gorkhali_Squat/blob/main/product-userdetail2.html")
 }
 else {
 alert("Invalid Otp");

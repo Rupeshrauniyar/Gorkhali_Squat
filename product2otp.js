@@ -24,8 +24,8 @@ const otp_btn = document.getElementById('otp-btn');
 
 otp_btn.addEventListener('click', () => {
 if (otp_inp.value == otp_val) {
-alert("Email Verified..."))
-window.location.assign("product-userdetail2.html")
+alert("Email Verified...")
+window.location.assign("index.html")
 }
 else {
 alert("Invalid Otp");

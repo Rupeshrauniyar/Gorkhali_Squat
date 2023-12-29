@@ -76,3 +76,77 @@ text-align: left;
 text-align: left;
 justify-content: space-between;
 }
+@media(max-width:1140px){
+ .mainnavbar{
+ width: 990px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ }
+ .main{
+ width: 1000px;
+margin-top: 5vh;
+ }
+ .main2{
+ width: 1000px;
+ }
+ .main3{
+ width: 1000px;
+ }
+ .buy a{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left:14vw ;
+}
+}
+@media(max-width:768px){
+ .mainnavbar{
+ width: 750px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ }
+ .main{
+ width: 750px;
+margin-top: 5vh;
+ }
+ .main2{
+ width: 750px;
+ }
+ .main3{
+ width: 750px;
+ }
+ .buy a{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left:22vw ;
+ width: 100px;
+}
+}
+@media(max-width:435px){
+ .mainnavbar{
+ width: 416px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ }
+ .main{
+ width: 416px;
+margin-top: 5vh;
+ }
+ .main2{
+ width: 416px;
+ }
+ .main3{
+ width: 416px;
+ }
+ .buy a{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: -1vw;
+ width: 100px;
+}
+}

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>OTP in JS</title>
+<title>Confirm Your G-mail</title>
 <link rel="stylesheet" href="otpstyle.css">
 <script src="product9otp.js"></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
@@ -19,10 +19,12 @@
 <div class="otpverify">
 
 <input type="number" id="otp_inp" placeholder="Enter the OTP..." required>
-<br><button value="submit" class="btn2" id="otp-btn">Verify</button>
+<br><a href="#" class="btn2" id="otp-btn"><h6>Verify</h6></a>
+<div class="proceed">
+<button value="submit" class="btn3" id="proceed-btn" onclick="link()">Verify</button> 
+</div>
 </div>
 
-</div>
 </form>
 </body>
 </html>

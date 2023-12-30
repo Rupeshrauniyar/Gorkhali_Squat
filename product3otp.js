@@ -34,10 +34,3 @@ alert("Invalid Otp");
 }
 })
 }
-function link(){
-window.location.assign("product-userdetail3.html")
- 
- 
- 
- 
-}
